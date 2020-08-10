@@ -10,7 +10,7 @@ public class splitexample2 {
 
         for(int i =0; i<stArr.length ;i++)
         {
-            int l = stArr[i].length();
+           int l = stArr[i].length();
 
             if(stArr[i].charAt(l-1)=='y')
 

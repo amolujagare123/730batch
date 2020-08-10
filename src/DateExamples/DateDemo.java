@@ -30,6 +30,9 @@ public class DateDemo {
         SimpleDateFormat sd3 = new SimpleDateFormat("dd | MMMM yy h:mm");
         System.out.println(sd3.format(date));
 
+        SimpleDateFormat sd4 = new SimpleDateFormat("yyyy-MM-dd| h:mm:ss");
+        System.out.println(sd4.format(date));
+
 
 
     }
