@@ -12,6 +12,14 @@ public class CopyConstructorDemo {
 
     }
 
+    CopyConstructorDemo(int a,double d, char c, String str)
+    {
+         this.a = a;
+         this.d =d;
+         this.c = c;
+         this.str = str;
+    }
+
     CopyConstructorDemo(CopyConstructorDemo obj)
     {
         a = obj.a;
@@ -43,6 +51,9 @@ public class CopyConstructorDemo {
         ob1.display();
 
         CopyConstructorDemo ob2 = new CopyConstructorDemo(ob);
+
+        CopyConstructorDemo ob3 = new CopyConstructorDemo(23,6.34,'y',"sasa");
+        ob3.display();
 
     }
 }
