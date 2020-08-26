@@ -1,5 +1,7 @@
 package pack1;
 
+import java.util.Date;
+
 public class Java2 {
 
     int a2;
@@ -23,5 +25,7 @@ public class Java2 {
          ob.a1 = 78;
 
          ob.d1 = 90.34;
+
+         Date date = new Date();
     }
 }
