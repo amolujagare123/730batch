@@ -24,6 +24,7 @@ public class VectorDemo {
             System.out.print(itr.next()+" ");
 
         System.out.println("priting using enumeration");
+
         Enumeration e = v.elements();
         while (e.hasMoreElements())
             System.out.print(e.nextElement()+" ");
